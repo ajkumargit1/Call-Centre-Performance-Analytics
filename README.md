@@ -94,7 +94,7 @@ This project turns call center operations data into a clear, visual story — su
 ## 📬 Contact
 
 **Ajay Kumar**
-📧 devanshijbhatt@gmail.com
+📧 kumarajay150303@gmail.com
 
 ---
 
