@@ -75,7 +75,7 @@ Detailed insights and supporting visuals are walked through slide-by-slide in `C
 
 ---
 
-## 🚀 How to Use This Project
+## How to Use This Project
 
 1. **Explore the data** — open `Call-Center-Dataset.xlsx` to review the raw fields and structure
 2. **Interact with the dashboard** — open `Callcentre_dashboard.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) to filter by agent or month using the built-in slicers and explore the visuals yourself
