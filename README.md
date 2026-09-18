@@ -1,4 +1,4 @@
-# 📞 Call Centre Performance Analytics
+# Call Centre Performance Analytics
 
 A Power BI-driven analytics project that turns raw call center logs into a decision-ready performance dashboard — covering response times, customer satisfaction, call resolution, and topic-level trends. Built as part of the **Forage × PwC Job Simulation**.
 
@@ -8,7 +8,7 @@ A Power BI-driven analytics project that turns raw call center logs into a decis
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 | File | Description |
 |---|---|
@@ -19,23 +19,23 @@ A Power BI-driven analytics project that turns raw call center logs into a decis
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project was completed as part of the **Forage PwC Job Simulation**, which asks participants to analyze call center data and derive actionable insights from it. Power BI was used for visualization, with new measures built using **DAX expressions** across a range of chart types.
 
 The workflow involved cleaning the raw data and calculating: total calls per agent, average satisfaction score, average response time, number of topics, most-called topic, calls resolved by topic, and speed of response — all visualized in an interactive dashboard.
 
-![Dashboard KPI Summary](images/dashboard-kpi-summary.png)
+![Dashboard KPI Summary](dashboard-kpi-summary.png)
 
 ---
 
-## 🛠️ Data Preparation
+##  Data Preparation
 
 The dataset was sourced as an Excel file and loaded into Power BI. The date column was split into three separate fields — **date**, **time**, and **month name** — with the month name derived by reformatting the date column.
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
+##  Key Performance Indicators (KPIs)
 
 - **Average Response Time: 55 seconds** — reflects how efficiently and responsively the call center handles incoming calls, calculated via a DAX average formula
 - **Average Satisfaction Score: 3 / 5** — customer satisfaction rating on a scale of 1 to 5, also derived via DAX
@@ -43,13 +43,13 @@ The dataset was sourced as an Excel file and loaded into Power BI. The date colu
 - **Agent & Month Slicers** — advanced slicers let you filter every visual by individual agent or by month
 - **Topic Distribution** — a doughnut chart breaking down call volume by reason for contact
 
-![Call Distribution by Topic](images/topic-distribution.png)
+![Call Distribution by Topic](topic-distribution.png)
 
 Call topics break down as: **Streaming (25.11%)**, **Payment Related (23.79%)**, **Technical Support (21.15%)**, **Contract Related (16.74%)**, and **Admin Support (13.22%)**.
 
 ---
 
-## 🔍 Insights
+##  Insights
 
 Detailed insights and supporting visuals are walked through slide-by-slide in `CallCentre Analysis.pptx`. Key findings include:
 
@@ -58,13 +58,13 @@ Detailed insights and supporting visuals are walked through slide-by-slide in `C
 - **Peak call volume was observed during Week 5** (for the example agent, "Dan"), which also saw the highest number of calls resolved — useful for spotting efficiency patterns and staffing bottlenecks
 - **Call answered/not-answered breakdown (sample view — Agent "Dan," January):** 190 calls answered vs. 37 not answered, illustrating how the dashboard's slicers let you isolate performance at the agent and month level
 
-![Call Answered vs Not Answered](images/call-answered-ratio.png)
+![Call Answered vs Not Answered](call-answered-ratio.png)
 
 > \* Figures shown for the Answered/Not Answered chart reflect one filtered view (Agent: Dan, Month: January) used as a working example in the presentation — the dashboard itself supports slicing this ratio across any agent or month.
 
 ---
 
-## ✅ Recommendations
+##  Recommendations
 
 - **Maintain/Improve Response Times** — continue to monitor and optimize response times to enhance customer satisfaction
 - **Enhance Customer Satisfaction Scores** — implement strategies such as agent training and improved problem-solving capabilities
@@ -81,21 +81,21 @@ Detailed insights and supporting visuals are walked through slide-by-slide in `C
 2. **Interact with the dashboard** — open `Callcentre_dashboard.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) to filter by agent or month using the built-in slicers and explore the visuals yourself
 3. **Review the findings** — walk through `CallCentre Analysis.pptx` for the full narrative, slide-by-slide insights, and recommendations — ideal for presenting to stakeholders or a hiring manager
 
-> 💡 **Requirement:** Power BI Desktop (free) is needed to open and edit the `.pbix` file.
+>  **Requirement:** Power BI Desktop (free) is needed to open and edit the `.pbix` file.
 
 ---
 
-## 🧩 Conclusion
+##  Conclusion
 
 This project turns call center operations data into a clear, visual story — surfacing where performance is strong, where it's slipping, and what to do about it. The combination of an interactive Power BI dashboard and a stakeholder-ready presentation makes it easy to both explore the data independently and communicate findings to decision-makers.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Ajay Kumar**
 📧 kumarajay150303@gmail.com
 
 ---
 
-⭐ If you found this project useful, consider starring the repo!
+ If you found this project useful, consider starring the repo!
